@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+      font-family: "Inter", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+   // background-color: aqua;
+    max-width: 135em;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 7rem;
+}
+
+.ora-hero-text{
+    font-size: 4.3rem;
+    transform: none;
+}
+
+.ora-hero-text:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.right-nav-elements{
+    display: flex;
+    align-items: center;
+}
+
+.right-nav-elements ul{
+    display: flex;
+}
+
+.right-nav-elements ul li{
+    padding: 1.2rem 0 1.2rem 1.2rem;
+    margin-right: 2.2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.right-nav-elements ul li a{
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: 500;
+}
+
+.icon{
+    background-color: #C2CFF5;
+    border-radius: 100%;
+    padding: 0.7rem;
+     width: auto;
+    height: auto;
+    transform: none;
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+.sun-icon{
+    height: 1.7rem;
+    width: 1.7rem;
+    max-width: 100%;
+    fill: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #146CFF;
+    border-radius: 1rem;
+    padding: 1.3rem 1.7rem;
+    font-size: 1.5rem;
+    border: none;
+    font-weight:550;
+    margin-right: 2.2rem;
+}
+
+.block-container{
+display: flex;
+justify-content: center;
+//width: 100%;
+//background-color: #111827;
+margin-top:4rem
+}
+
+.main-section-container{
+    background-color: white;
+  box-shadow: 0 15px 35px 0 rgba(60, 66, 87, 0.12), 0 5px 15px 0 rgba(60, 66, 87, 0.12);  
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(218,226,248);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  min-width: 40rem;
+}
+
+.sign-in-text{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    margin-top: 3rem;
+}
+
+.line-2-text{
+    color: #616D8E;
+    font-size: 1.6rem;
+    margin: 1rem 0 4rem 0;
+}
+
+
+.email-btn-container, .google-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-email{
+    border: none;
+    font-weight: 400;
+    background-color: #E5EAF8;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    letter-spacing: 0.06rem;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.btn-email:hover{
+    background-color: rgb(218 226 248);
+    cursor: pointer;
+}
+
+.btn-email span{
+    position: relative;
+    right: 1.2rem;
+    flex-grow: 1;
+}
+
+.icon-email, .icon-google{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    //right: 1rem;
+}
+.or{
+    border-bottom: 1px solid #DAE2F8;
+    width: 90%;
+    margin: 0 auto;
+    //position: relative;
+    margin-bottom: 3rem;
+
+}
+
+.or-child{
+    font-size:1.4rem ;
+    background-color: white;
+    position: relative;
+    top: 0.7rem;
+    padding: 1rem;
+}
+
+.btn-google{
+    border: none;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    letter-spacing: 0.06rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(218,226,248);
+}
+.btn-google:hover{
+    background-color: rgb(249 ,249 ,249);
+    cursor: pointer;
+}
+.btn-google span{
+    position: relative;
+    right: 1.2rem;
+    flex-grow: 1;
+}
+.no-account-container{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.no-account-container a{
+    text-decoration: none;
+}
+
+.no-account-container a span:hover{
+    text-decoration: underline;
+}
